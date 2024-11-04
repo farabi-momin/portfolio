@@ -10,13 +10,14 @@ header, footer {
   color: white; 
   text-align: left; 
   padding: 1rem; 
+  width: 100%;
 } 
 
 .container {  
   flex-wrap: wrap; /* Allows items to wrap to the next line */ 
   justify-content: space-around; /* Distributes space evenly */ 
   padding: 10px;
-} 
+}
 
 .box { 
   background-color: #f4f4f4; 
@@ -71,26 +72,12 @@ a.clink{
   text-decoration: none;
   color: white;
 }
-.button {
-  background-color: #04AA6D; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 50%;
-  margin-left: 25%;
-}
 .nav-menu {
   list-style-type: none;
   margin: auto;
   padding-top: 10px;
   background-color: #2b2a57;
-  width: 51%;
+  width: 43%;
   opacity:50%;
 }
 
@@ -110,4 +97,24 @@ a.clink{
   .box { 
       flex: 1 1 100%; /* Stacks boxes on small screens */ 
   } 
+  .nav-menu{
+    list-style-type: none;
+    margin: auto;
+    padding-top: 10px;
+    background-color: #2b2a57;
+    width: 80%;
+    opacity:50%;
+  }
+  .nav-item {
+    display: inline;
+    padding: 5px;
+  }
+  .DP { 
+    background: url(1704716525467.jpg) 60% 18% no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 105px;
+    border: 2px solid;
+  }
+  
 }
