@@ -1,65 +1,113 @@
-    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
-    .row.content {height: 1500px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      background-color: #2b2a57;
-      color: aliceblue;
-      position: sticky;
-        top: 0;
-        overflow: hidden;
-        height: 100vh;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #f5f3f8;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height: auto;} 
-    }
-    .DP { 
-        background: url(1704716525467.jpg) 60% 18% no-repeat;
-        width: 250px;
-        height: 255px;
-        border: 2px solid;
-      }
-    .p-i-table td{
-        padding: 15px;
-    }  
-    .edu-table td, th{
-        padding: 15px;
-    }
-    .btn-group .skill-button {
-        background-color: #2b2a57; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        float: left;
-      }
-      .btn-group .skill-button:hover {
-        background-color: #7d7aa7;
-        color:black;
-      }
-      .btn-group .skill-button:focus {
-        background-color: #ffffff;
-        color:black;
-      }
-      img.logo {
-        height: 50px;
-        width: 50px;
-      }
-      
+/* styles.css */ 
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0;
+} 
+
+header, footer { 
+  background-color: #2b2a57; 
+  color: white; 
+  text-align: left; 
+  padding: 1rem; 
+} 
+
+.container {  
+  flex-wrap: wrap; /* Allows items to wrap to the next line */ 
+  justify-content: space-around; /* Distributes space evenly */ 
+  padding: 10px;
+} 
+
+.box { 
+  background-color: #f4f4f4; 
+  border: 1px solid #ccc; 
+  margin: 10px; 
+  padding: 20px; 
+  flex: 1 1 300px; /* Flexible item with a minimum width of 300px */ 
+  box-sizing: border-box; /* Include padding and border in element's total width and height */ 
+} 
+
+.DP { 
+  background: url(1704716525467.jpg) 60% 18% no-repeat;
+  width: 250px;
+  height: 255px;
+  border: 2px solid;
+}
+.p-i-table td{
+  padding: 15px;
+}  
+.edu-table td, th{
+  padding: 15px;
+}
+.btn-group .skill-button {
+  background-color: #2b2a57; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+.btn-group .skill-button:hover {
+  background-color: #7d7aa7;
+  color:black;
+}
+.btn-group .skill-button:focus {
+  background-color: #ffffff;
+  color:black;
+}
+img.logo {
+  height: 50px;
+  width: 50px;
+}
+img.logo2 {
+  height: 25px;
+  width: 25px;
+}  
+a.clink{
+  text-decoration: none;
+  color: white;
+}
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 25%;
+}
+.nav-menu {
+  list-style-type: none;
+  margin: auto;
+  padding-top: 10px;
+  background-color: #2b2a57;
+  width: 51%;
+  opacity:50%;
+}
+
+.nav-item {
+  display: inline;
+  padding: 10px;
+}
+
+.nav-menu:hover{
+  opacity:75%;
+}
+.nav-item:hover{
+  opacity: 100%;
+}
+/* Media Queries for additional responsiveness */ 
+@media (max-width: 600px) { 
+  .box { 
+      flex: 1 1 100%; /* Stacks boxes on small screens */ 
+  } 
+}
