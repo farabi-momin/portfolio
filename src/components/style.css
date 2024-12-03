@@ -274,6 +274,7 @@
         top:0px;
         float: initial;
         margin-left: 0px;
+        margin-bottom: 10px;
     }
     .profile h3{
         font-size: 16px;
@@ -345,23 +346,23 @@
     .navbar{
         background-color: rgb(209, 225, 240);
         padding: 0px;
-        text-align: center;
+        text-align: left;
         border-radius: 2%;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         width: 100%;
-        position:sticky;
-        left: 0px;
+        position: sticky;
+        margin-left: 0px;
         top: 0px;
-        margin-top: 0px;
         opacity: 0.6;
         ul{
     
             li{
                 display: inline;
                 margin-left: 20px;
+                text-decoration: none;
             }
         }
-        img{width: 30px; height: auto;}
+        img{width: 20px; height: auto; display: inline;}
     }
     .navbar:hover{
         opacity: 1;
