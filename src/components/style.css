@@ -1,0 +1,486 @@
+.home{
+    display: inline;
+}
+.profile{
+    padding:80px 20px 20px 20px ;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2%;
+    position: sticky;
+    top:140px;
+    float: left;
+    margin-left: -350px;
+}
+.profile h3{
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 2px;
+}
+.profile p{
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 2px;
+}
+.profile .profile-pic{
+    width: 120px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10%;
+    position: absolute;
+    margin-top: -140px;
+    left: 110px;
+    
+  }
+.profile .profile-pic img{
+    width: 120px;
+    height: 128px;
+    object-fit: cover;
+    object-position: 62% 16%;
+    border-radius: 10%;
+}
+.profile .contact-link .contact-link-icon{
+    width: 25px;
+    height: auto;
+    margin: 15px;
+    padding: 5px;
+    background-color:rgb(209, 225, 240);
+    border-radius: 25%;
+}
+.profile .contact-tab{
+    text-align: justify;
+    background-color: rgb(209, 225, 240);
+    border-radius: 5%;
+    padding: 10px;
+
+    hr{
+        margin: 5px 15px;
+    }
+}
+.profile .contact-tab .tab{
+    padding: 5px;
+}
+.profile .contact-tab .tab img{
+    width: 30px;
+    height: auto;
+    float: left;
+    padding: 10px;
+    vertical-align: middle;
+}
+.profile .contact-tab .tab h3{
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 500;
+    margin-bottom: px;
+}
+.profile .contact-tab .tab p{
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 2px;
+}
+.about{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    text-align: left;
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+.about .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+.about .container .container-box{
+    width:370px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+
+    img{
+        vertical-align: middle;
+        width: 20px;
+        padding: 5px;
+    }
+    h3{
+        display: inline;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.about .container .container-box:hover{
+    background-color: aliceblue;
+}
+.education{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    text-align: left;
+    border-radius: 2%;
+    margin-bottom: 20px;
+
+    .edu-tab{
+
+        h4{
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 16px;
+        }
+        h5{
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 14px;
+            margin-bottom: 0px;
+        }
+        p{
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 12px;
+            margin-bottom: 0px;
+        }
+    }
+}
+.projects{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    text-align: left;
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+.projects .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projects .container .content{
+    padding: 0px 0px 20px 0px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    h3{
+        margin: 0px;
+        padding: 20px;
+    }
+    h4{
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0px;
+        padding: 20px 20px 0px 20px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 12px;
+        padding:0px 20px;
+        margin: 0px;
+    }
+    a{
+        text-decoration: none; 
+        color: blue; 
+        padding: 20px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    hr{
+        margin: 15px;
+    }
+.projects .container .content:hover{
+    background-color: rgb(216, 232, 245);
+}
+}
+.h-red{background-image: linear-gradient(to right, red , rgb(255, 38, 0), rgb(255, 94, 0)); color: rgb(180, 180, 180)}
+.h-red:hover{background-image: linear-gradient(to left, red , rgb(255, 38, 0), rgb(255, 94, 0));}
+.h-blue{background-image: linear-gradient(to right, rgb(9, 0, 87) , rgb(30, 13, 131), rgb(79, 58, 197)); color: rgb(180, 180, 180);}
+.h-blue:hover{background-image: linear-gradient(to left, rgb(9, 0, 87) , rgb(30, 13, 131), rgb(79, 58, 197));}
+.h-green{background-image: linear-gradient(to right, rgb(7, 78, 0) , rgb(20, 100, 4), rgb(28, 139, 6)); color: rgb(180, 180, 180)}
+.h-green:hover{background-image: linear-gradient(to left, rgb(7, 78, 0) , rgb(20, 100, 4), rgb(28, 139, 6));}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+.skills{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    text-align: left;
+    border-radius: 2%;
+    margin-bottom: 20px;
+
+    h3{}
+    .hide-show-tab{}
+    .hide-show-tab .hide-show-tab-nav{}
+    .hide-show-tab .hide-show-tab-nav .hide-show-tab-nav-btn{
+        display: inline;
+        padding: 15px;
+        background-color: rgb(1, 1, 97);
+        color: antiquewhite;
+        margin: 10px;
+        border: none;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    .hide-show-tab .hide-show-tab-nav .hide-show-tab-nav-btn:focus{
+        background-color: rgb(1, 1, 99);
+        opacity: 0.5;
+    }
+    .hide-show-tab .hide-show-tab-content{}
+    .hide-show-tab .hide-show-tab-content .content{}
+    .hide-show-tab .hide-show-tab-content .content img{
+        width: 50px;
+        padding: 0px;
+        height: auto;
+        vertical-align: middle;
+    }
+    .hide-show-tab .hide-show-tab-content .content progress{
+        width: 80%;
+        padding: 10px;
+        margin-left: 20px;
+    }
+}
+.navbar{
+    background-color: rgb(209, 225, 240);
+    padding: 0px;
+    text-align: left;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    width: 25%;
+    position: fixed;
+    left: 900px;
+    top: 50px;
+    opacity: 0.6;
+    ul{
+
+        li{
+            display: inline;
+            margin-left: 30px;
+        }
+    }
+    img{width: 30px; height: auto;}
+}
+.navbar:hover{
+    opacity: 1;
+}
+@media screen and (max-width: 400px) {
+    body{width: 100%;}
+    .profile{
+        padding:20px ;
+        width: 300px;
+        text-align: center;
+        background-color: white;
+        border-radius: 2%;
+        position: static;
+        top:0px;
+        float: initial;
+        margin-left: 0px;
+    }
+    .profile h3{
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 2px;
+    }
+    .profile p{
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 2px;
+    }
+    .profile .profile-pic{
+        width: 120px;
+        padding: 5px;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 10%;
+        position: static;
+        margin-top: 0px;
+        margin-left: 33%;
+        
+      }
+    .profile .profile-pic img{
+        width: 120px;
+        height: 128px;
+        object-fit: cover;
+        object-position: 62% 16%;
+        border-radius: 10%;
+    }
+    .profile .contact-link .contact-link-icon{
+        width: 25px;
+        height: auto;
+        margin: 15px;
+        padding: 5px;
+        background-color:rgb(209, 225, 240);
+        border-radius: 25%;
+    }
+    .profile .contact-tab{
+        text-align: justify;
+        background-color: rgb(209, 225, 240);
+        border-radius: 5%;
+        padding: 10px;
+    
+        hr{
+            margin: 5px 15px;
+        }
+    }
+    .profile .contact-tab .tab{
+        padding: 5px;
+    }
+    .profile .contact-tab .tab img{
+        width: 30px;
+        height: auto;
+        float: left;
+        padding: 10px;
+        vertical-align: middle;
+    }
+    .profile .contact-tab .tab h3{
+        font-size: 11px;
+        line-height: 11px;
+        font-weight: 500;
+        margin-bottom: px;
+    }
+    .profile .contact-tab .tab p{
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 2px;
+    }
+    .navbar{
+        background-color: rgb(209, 225, 240);
+        padding: 0px;
+        text-align: center;
+        border-radius: 2%;
+        margin-bottom: 0px;
+        width: 100%;
+        position:sticky;
+        left: 0px;
+        top: 0px;
+        margin-top: 0px;
+        opacity: 0.6;
+        ul{
+    
+            li{
+                display: inline;
+                margin-left: 20px;
+            }
+        }
+        img{width: 30px; height: auto;}
+    }
+    .navbar:hover{
+        opacity: 1;
+    }
+    .about{
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+        text-align: left;
+        border-radius: 2%;
+        margin-bottom: 20px;
+        position: static;
+    }
+    .about .container{
+        display: initial;
+    }
+    .about .container .container-box{
+        width:80%;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 20px;
+    
+        img{
+            vertical-align: middle;
+            width: 20px;
+            padding: 5px;
+        }
+        h3{
+            display: inline;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .about .container .container-box:hover{
+        background-color: aliceblue;
+    }   
+    .skills{
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+        text-align: left;
+        border-radius: 2%;
+        margin-bottom: 20px;
+    
+        h3{}
+        .hide-show-tab{}
+        .hide-show-tab .hide-show-tab-nav{}
+        .hide-show-tab .hide-show-tab-nav .hide-show-tab-nav-btn{
+            display: inline;
+            padding: 11px;
+            background-color: rgb(1, 1, 97);
+            color: antiquewhite;
+            margin: 0px;
+            border: none;
+            border-radius: 0px;
+            text-decoration: none;
+            font-size: 8px;
+        }
+        .hide-show-tab .hide-show-tab-nav .hide-show-tab-nav-btn:focus{
+            background-color: rgb(1, 1, 99);
+            opacity: 0.5;
+        }
+        .hide-show-tab .hide-show-tab-content{}
+        .hide-show-tab .hide-show-tab-content .content{}
+        .hide-show-tab .hide-show-tab-content .content img{
+            width: 50px;
+            padding: 0px;
+            height: auto;
+            vertical-align: middle;
+        }
+        .hide-show-tab .hide-show-tab-content .content progress{
+            width: 75%;
+            padding: 10px;
+            margin-left: 20px;
+        }
+    }
+    .projects{
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+        text-align: left;
+        border-radius: 2%;
+        margin-bottom: 20px;
+    }
+    .projects .container{
+        display: initial;
+    }
+    .projects .container .content{
+        padding: 0px 0px 20px 0px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        h3{
+            margin: 0px;
+            padding: 20px;
+        }
+        h4{
+            font-size: 14px;
+            font-weight: 500;
+            margin: 0px;
+            padding: 20px 20px 0px 20px;
+        }
+        p{
+            font-size: 12px;
+            line-height: 12px;
+            padding:0px 20px;
+            margin: 0px;
+        }
+        a{
+            text-decoration: none; 
+            color: blue; 
+            padding: 20px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        hr{
+            margin: 15px;
+        }
+        .projects .container .content:hover{
+        background-color: rgb(216, 232, 245);
+        }
+    }
+}
