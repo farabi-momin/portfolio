@@ -262,7 +262,7 @@
 .navbar:hover{
     opacity: 1;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     body{width: 100%;}
     .profile{
         padding:20px ;
